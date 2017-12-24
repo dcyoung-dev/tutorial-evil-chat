@@ -10,4 +10,4 @@ function createChannel(...args) {
   return consumer.subscriptions.create(...args);
 }
 
-export default createChannel();
+export default createChannel;

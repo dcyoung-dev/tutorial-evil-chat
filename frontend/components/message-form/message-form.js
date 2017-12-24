@@ -2,7 +2,7 @@ import { sendMessage } from "client/chat";
 import "./message-form.css";
 
 const form = document.querySelector(".js-message-form");
-const input = form.querySelector(".js-message-form-input");
+const input = form.querySelector(".js-message-form--input");
 const submit = form.querySelector(".js-message-form--submit");
 
 function submitForm() {
